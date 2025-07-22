@@ -9,6 +9,15 @@ set number
 # Enable syntax highlighting.
 syntax on
 
+# Enable loading filetype-specific plugins.
+filetype plugin on
+
+# Preserve the indentation of the original line when wrapping.
+set breakindent
+
+# Copy the indentation from the current line when starting a new line.
+set autoindent
+
 # Set vim's character encoding to utf-8.
 set encoding=utf-8
 
