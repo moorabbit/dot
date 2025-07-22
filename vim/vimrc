@@ -61,6 +61,12 @@ set listchars=trail:␣
 # Show invisible characters (e.g. tabs, trailing spaces, end-of-line markers).
 set list
 
+# Don't show the editing mode in the command line.
+set noshowmode
+
+# Don't insert 2 spaces after a '.', '?' or '!' when joining lines.
+set nojoinspaces
+
 # Update the characters to fill the statuslines, vertical separators and special lines in the window.
 &fillchars = [
   # Remove the '|' characters used as vertical window separators.
