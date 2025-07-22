@@ -76,5 +76,12 @@ inoremap <c-q> <c-o>^
 # Reload config key mapping. 
 nnoremap <silent> <Leader>r :source $MYVIMRC<CR>:echo 'reloaded ' .. $MYVIMRC .. '.'<CR>
 
+# Disable <Space> and <BS> in normal mode.
+nnoremap <Space> <Nop>
+nnoremap <BS> <Nop>
+
 # Clear highlighted matches.
 nnoremap <silent> <c-l> :nohlsearch<CR>
+
+# Compile functions and classes defined in the current script. This will report errors on startup.
+defcompile
