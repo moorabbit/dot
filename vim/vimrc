@@ -30,6 +30,18 @@ set incsearch
 # Highlight all the matches of the previous search pattern.
 set hlsearch
 
+# Disable swap files.
+set noswapfile
+
+# Set <Tab> to count for 2 spaces.
+set softtabstop=2
+
+# Use 2 spaces for indentation commands (e.g. '>>', '<<').
+set shiftwidth=2
+
+# Use spaces instead of tabs.
+set expandtab
+
 # Update the characters to fill the statuslines, vertical separators and special lines in the window.
 &fillchars = [
   # Remove the '|' characters used as vertical window separators. 
