@@ -54,7 +54,7 @@ set list
 
 # Update the characters to fill the statuslines, vertical separators and special lines in the window.
 &fillchars = [
-  # Remove the '|' characters used as vertical window separators. 
+  # Remove the '|' characters used as vertical window separators.
   'vert: ',
   # Remove the '~' characters in the empty lines below the end of a buffer.
   'eob: '
