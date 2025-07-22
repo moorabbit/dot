@@ -67,6 +67,9 @@ set noshowmode
 # Don't insert 2 spaces after a '.', '?' or '!' when joining lines.
 set nojoinspaces
 
+# When set to "dark", Vim will try to use colors that look good on a dark background.
+set background=dark
+
 # Update the characters to fill the statuslines, vertical separators and special lines in the window.
 &fillchars = [
   # Remove the '|' characters used as vertical window separators.
