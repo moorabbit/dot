@@ -98,5 +98,8 @@ nnoremap <BS> <Nop>
 # Clear highlighted matches.
 nnoremap <silent> <c-l> :nohlsearch<CR>
 
+# Set the colorscheme.
+colorscheme lunaperche
+
 # Compile functions and classes defined in the current script. This will report errors on startup.
 defcompile
