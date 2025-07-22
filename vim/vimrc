@@ -42,6 +42,16 @@ set shiftwidth=2
 # Use spaces instead of tabs.
 set expandtab
 
+# Indent lines to the next multiple of 'shiftwidth'.
+# Applies to the commands: '>' and '<'.
+set shiftround
+
+# Show character '␣' for trailing space.
+set listchars=trail:␣
+
+# Show invisible characters (e.g. tabs, trailing spaces, end-of-line markers).
+set list
+
 # Update the characters to fill the statuslines, vertical separators and special lines in the window.
 &fillchars = [
   # Remove the '|' characters used as vertical window separators. 
