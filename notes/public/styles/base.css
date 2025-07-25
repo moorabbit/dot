@@ -9,4 +9,9 @@
   --palette-yellow-200-rgb: 41, 32, 19;
   --palette-yellow-800-rgb: 245, 185, 68;
   --palette-yellow-700-rgb: 202, 153, 59;
+
+  /*
+   * Font
+   */
+  --font-default: system-ui;
 }
