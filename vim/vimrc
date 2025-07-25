@@ -55,9 +55,6 @@ set expandtab
 # Applies to the commands: '>' and '<'.
 set shiftround
 
-# Show character '␣' for trailing space.
-set listchars=trail:␣
-
 # Show invisible characters (e.g. tabs, trailing spaces, end-of-line markers).
 set list
 
@@ -76,6 +73,12 @@ set background=dark
   'vert: ',
   # Remove the '~' characters in the empty lines below the end of a buffer.
   'eob: '
+]->join(',')
+
+# Show character '␣' for trailing space.
+&listchars = [
+  'tab:  ',
+  'trail:␣'
 ]->join(',')
 
 # Set the <Leader> key.
