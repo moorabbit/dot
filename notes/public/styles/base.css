@@ -1,6 +1,6 @@
 :root {
   /*
-   * Color palette
+   * Color palette.
    */
   --palette-neutral-0-rgb: 8, 15, 17;
   --palette-neutral-800-rgb: 184, 187, 188;
@@ -15,7 +15,7 @@
   --palette-green-800-rgb: 72, 213, 151;
 
   /*
-   * Font
+   * Font.
    */
   --font-default: system-ui;
 }
