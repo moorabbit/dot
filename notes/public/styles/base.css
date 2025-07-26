@@ -19,3 +19,22 @@
    */
   --font-default: system-ui;
 }
+
+* {
+  /*
+   * Reset the margin for all HTML elements.
+   */
+  margin: 0;
+}
+
+body {
+  /*
+   * Set the background color of the page.
+   */
+  background-color: rgb(var(--palette-neutral-0-rgb));
+
+  /*
+   * Set the default font of the page.
+   */
+  font-family: var(--font-default);
+}
